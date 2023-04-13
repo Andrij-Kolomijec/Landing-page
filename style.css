@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(10, 10, 59);
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+}
+
+.link  {
+    color: grey;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.two {
+    padding: 100px;
+    background-color: grey;
+    margin: 30px;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+
+.head {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.text {
+    font-size: 15px;
+    color: grey;
+}
+
+.button-one {
+    width: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline {
+    font-size: 20px;
+    font-weight: bold;
+    color: ;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    display: flex;
+    border-radius: 15px;
+}
+
+.subtext {
+    width: 150px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.quote {
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.inside {
+    
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.signup {
+    display: flex;
+    background-color: rgb(0, 110, 255);
+    margin: 50px 100px;
+    justify-content: space-between;
+    padding: 30px 70px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.up {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.down {
+    font-size: 20px;
+    color: rgb(194, 183, 183);
+}
+
+.button-two {
+
+}
+
+.footer {
+    background-color: rgba(10, 10, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 20px;
+}
