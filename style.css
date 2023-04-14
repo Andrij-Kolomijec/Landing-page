@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -40,6 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    flex-wrap: wrap;
 }
 
 .one {
@@ -47,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 30px;
+    flex: 1;
 }
 
 .two {
@@ -95,6 +98,7 @@ button {
     flex: auto;
     padding: 40px 300px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .image {
@@ -143,6 +147,7 @@ button {
     padding: 55px 150px;
     border-radius: 10px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .up {
